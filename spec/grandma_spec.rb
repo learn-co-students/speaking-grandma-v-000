@@ -1,3 +1,6 @@
+require_relative '../grandma.rb'
+#require_relative 'spec_helper.rb'
+
 describe '#speak_to_grandma' do
   it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
     expect(speak_to_grandma('Hi Nana, how are you?')).to eq 'HUH?! SPEAK UP, SONNY!'
