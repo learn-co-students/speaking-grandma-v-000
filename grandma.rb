@@ -8,3 +8,11 @@
 # and yells back
 
 # NO, NOT SINCE 1938!
+
+def speak_to_grandma(input)
+  if input == "WHAT DID YOU EAT TODAY?" || input == "WHAT?"
+    return "NO, NOT SINCE 1938!"
+  else
+    return "HUH?! SPEAK UP, SONNY!"
+  end
+end
