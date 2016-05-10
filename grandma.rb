@@ -16,22 +16,3 @@ def speak_to_grandma(words)
     "HUH?! SPEAK UP, SONNY!"
   end
 end
-
-
-
-# bye_num = 0
-#
-# while bye_num < 3
-#
-#   print "What do you want to say to Grandma? "
-#   say_something = gets.chomp
-#
-#   if say_something == "BYE"
-#     bye_num = bye_num + 1
-#   elsif say_something == say_something.upcase
-#     puts "NO, NOT SINCE #{rand(1930...1960)}!"
-#   else
-#     puts "HUH?! SPEAK UP, SONNY!"
-#   end
-#
-# end
