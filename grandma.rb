@@ -1,4 +1,11 @@
 # Write a speak_to_grandma method.
+require 'pry'
+def speak_to_grandma(w)
+  
+  return "HUH?! SPEAK UP, SONNY!" unless w == w.upcase
+  "NO, NOT SINCE 1938!"
+  
+end
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
