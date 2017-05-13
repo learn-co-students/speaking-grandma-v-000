@@ -1,10 +1,16 @@
 # Write a speak_to_grandma method.
+def speak_to_grandma(phrase)
+  puts phrase
+end
 
+speak_to_grandma = "HUH?! SPEAK UP, SONNY!"
+
+if speak_to_grandma
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
-# If you shout, she can hear you (or at least she thinks so) 
+# If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
 # NO, NOT SINCE 1938!
