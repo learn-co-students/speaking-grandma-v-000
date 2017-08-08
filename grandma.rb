@@ -4,7 +4,17 @@
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
-# If you shout, she can hear you (or at least she thinks so) 
+def speak_to_grandma(phrase)
+  if phrase == phrase.downcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif phrase == phrase.upcase
+    puts "NO, NOT SINCE 1938!"
+  elsif phrase == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  end
+end
+
+# If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
 # NO, NOT SINCE 1938!
