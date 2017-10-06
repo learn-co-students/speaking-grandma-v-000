@@ -15,13 +15,22 @@
 def speak_to_grandma(phrase)
 if phrase == "I LOVE YOU GRANDMA!"
   "I LOVE YOU TOO PUMPKIN!"
-elsif phrase == phrase.upcase
-  "NO, NOT SINCE 1938!"
-#elsif phrase == phrase.downcase || phrase == phrase.capitalize || phrase == phrase.swapcase
-else
+elsif phrase == phrase.downcase || phrase == phrase.capitalize || phrase == phrase.swapcase
     "HUH?! SPEAK UP, SONNY!"
-#  elsif phrase == phrase.upcase
-  #  "NO, NOT SINCE 1938!"
+  elsif phrase == phrase.upcase
+    "NO, NOT SINCE 1938!"
 
 end
+  end
+################
+def speak_to_grandma(phrase)
+if phrase == "I LOVE YOU GRANDMA!"
+  "I LOVE YOU TOO PUMPKIN!"
+end
+if phrase == phrase.downcase || phrase == phrase.capitalize || phrase == phrase.swapcase
+    "HUH?! SPEAK UP, SONNY!"
+  elsif phrase == phrase.upcase
+    "NO, NOT SINCE 1938!"
+end
+
   end
